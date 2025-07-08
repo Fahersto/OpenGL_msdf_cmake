@@ -1,13 +1,6 @@
 
 ### Clone repository and initialise all submodules (msdf-atlas-gen -> msdfgen)
-git clone --recurse-submodules https://github.com/Fahersto/OpenGL_msdf.git
-
-## Install dependencies
-### Example for vcpkg on Windows 64bit
-- vcpkg install freetype:x64-windows
-- vcpkg install glad:x64-windows
-- vcpkg install glm:x64-windows
-- vcpkg install glfw3:x64-windows
+git clone --recursive https://github.com/Fahersto/OpenGL_msdf_cmake.git
 
 ## Build and run
 1. Run CMAKE
